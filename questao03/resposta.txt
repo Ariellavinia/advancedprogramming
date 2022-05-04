@@ -1,0 +1,8 @@
+p = i;              # Falso
+q = &j;             # Verdadeiro
+p = &*&i;           # Verdadeiro
+i = (*&)j;          # Falso
+i = *&j;            # Verdadeiro
+i = *&*&j;          # Verdadeiro
+q = *p;             # Falso
+i = (*p)++ + *q;    # Verdadeiro

@@ -1,0 +1,5 @@
+devido ao for o primeiro programa vai mostrar os elementos do vetor, onde 
+o "%d" significa inteiro e o *(vet+i) representa o elemento do vetor. 
+
+No segundo programa, o output serão os endereços dos elementos do 
+vetor em hexadecimal, por conta do %X.
